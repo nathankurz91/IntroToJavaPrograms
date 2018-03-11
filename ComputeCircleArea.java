@@ -9,7 +9,7 @@ public class ComputeCircleArea {
         double radius = 5;
 
         // area of a circle is r^2
-        double area = radius * radius;
+        double area = radius * radius * 3.14;
 
         System.out.println("The area of a circle of raidus " + radius + " is: " + area);
     }

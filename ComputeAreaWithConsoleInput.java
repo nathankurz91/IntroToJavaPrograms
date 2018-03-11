@@ -19,7 +19,7 @@ public class ComputeAreaWithConsoleInput {
         double radius = in.nextDouble();
 
         // Compute area
-        double area = radius * radius;
+        double area = radius * radius * 3.14;
 
         System.out.println("The area of a circle with radius " + radius + " is: " + area + "\n");
 
