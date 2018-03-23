@@ -27,7 +27,7 @@
          Scanner scan = new Scanner(System.in);
          int answer = scan.nextInt();
 
-        
+         
          if (answer == (rand1 - rand2)) {
              System.out.println("That is correct! Great work :)");
          } else { 
