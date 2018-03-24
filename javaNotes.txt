@@ -1,0 +1,32 @@
+Random notes from "Intro to Java Programming 10th Ed."
+------------------------------------------------------
+
+
+
+- Static variable: 
+    - shared by all objects of the class
+    - If you want all instances of a class to share data, us static variables (class variables)
+
+- Static method: 
+    - cannot access instance members of the class
+    - can be called without creating an instance of the class
+- Data Field Encapsulation
+    - Making data fields private protects data and makes the class easy to maintain
+
+- Arrays of objects
+    e.g.
+        Circle[] circleArray = new Circle[10];
+
+        Initialize circleArray --->
+
+        for (int i = 0; i < circleArray.length; i++) {
+            circleArray[i] = new Circle();
+        }
+
+- Immutable objects and classes
+    - You can define immutable classes to create immutable objects. The contents of 
+      immutable objects cannot be changed
+    - If a class is immutable, then all of its data fields must be private and cannot 
+      contain public setter methods for any data fields.
+    
+
